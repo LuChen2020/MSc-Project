@@ -1,0 +1,23 @@
+[
+
+    { "keys": ["ctrl+g"], "command": "goto_definition" },
+
+    { "keys": ["ctrl+e"], "command": "extractmethod"},
+
+    { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+
+    { "keys": ["ctrl+p"], "command": "expand_selection", "args": {"to": "paragraph"} },
+
+    { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+
+    { "keys": ["ctrl+shift+b"], "command": "expand_selection", "args": {"to": "brackets"} },
+
+    { "keys": ["ctrl+shift+t"], "command": "expand_selection", "args": {"to": "tag"} },
+
+    { "keys": ["ctrl+shift+i"], "command": "expand_selection", "args": {"to": "indentation"} },
+
+    { "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+
+    { "keys": ["ctrl+shift+s"], "command": "open_file", "args":{ "file": "${packages}/python_refactor_plugin/MyPythonRefactor.sublime-settings"} },    
+]
+

@@ -1,0 +1,19 @@
+{
+	"nodePath" : "/usr/local/bin/node",
+
+	"highlight_code_smells" : true,
+
+	"min" : 20,
+
+	"spaceIgnored" : true,
+
+	"caseIgnored" : true,
+
+	"duplicate_code" : "storage.type",
+	
+
+	// By default plugin is enabled or disabled (true|false)
+	"highlight_duplicates_enabled" : true,
+
+}
+
